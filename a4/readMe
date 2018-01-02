@@ -1,0 +1,23 @@
+Author: Navid Askari Nasab
+Student Number: 101039154
+Date: Nov. 26th, 2017
+
+Purpose: Different functions for manipulating a linked list.
+
+List of files:  bubble_sort.h, bubble_sort.o, linked_list.c, linked_list.h, linked_list.o,
+		main.c, main.o, main_test, main_test.o, Makefile
+
+Exact compilation command:
+	 make -f Makefile
+
+Launching command:
+	 ./main_test
+
+How to use the softfare:
+	1. Compile
+	2. Launch
+	3. Whenever the program pauses, simply press "Enter" to continue.
+	4. Result should be 79 total points.
+
+Issues/Limitations: 
+	-Due to missing files, Makefile_leak and the files for that is not included.
