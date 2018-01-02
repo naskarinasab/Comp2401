@@ -1,0 +1,21 @@
+Author: Navid Askari Nasab
+Student Number: 101039154
+Date: Oct. 15th, 2017
+
+Purpose: Receiving short integers through user input and outputting the uncorrected message and the corrected message.
+
+List of source files: bit_manipulation.c, bit_manipulation.h, receive.c 
+
+Exact compilation command:
+	 gcc –o recv receive.c bit_manipulation.c   
+Exact debugger compilation command:
+	 gcc -g –o recv receive.c bit_manipulation.c
+
+Launching command:
+	 ./recv
+
+Sample input and output:
+	Input: 3412 3144 3900 8020
+	Output: test
+	 
+ 

@@ -1,0 +1,21 @@
+Author: Navid Askari Nasab
+Student Number: 101039154
+Date: Oct. 15th, 2017
+
+Purpose: Transmitting user input as short integers 
+
+List of source files: bit_manipulation.c, bit_manipulation.h, transmit.c 
+
+Exact compilation command:
+	 gcc –o tran transmit.c bit_manipulation.c 
+Exact debugger compilation command:
+	 gcc -g –o tran transmit.c bit_manipulation.c
+
+Launching command:
+	 ./tran
+
+Sample input and output:
+	Input: test
+	Output: 3412 3144 3900 8020
+	 
+ 
