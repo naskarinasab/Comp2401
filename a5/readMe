@@ -15,20 +15,20 @@ List of files:
 		multiSpawn.c	-Takes a binary file, checks to see if the file exists, and then spawns multiple childs to morph 
 				into isPrime for the first 10 number in the binary file
 	Make files:
-		makeFile1	- compiles singlePrime.c as singlePrime
-		makeFile2	- compiles singleSpawn.c as singleSpawn
-		makeFile3	- compiles multiSpawn.c as multiSpawn
+		Makefile1	- compiles singlePrime.c as singlePrime
+		Makefile2	- compiles singleSpawn.c as singleSpawn
+		Makefile3	- compiles multiSpawn.c as multiSpawn
 	Others:
 		prime.bin	- a file that contains 12 unsigned numbers in binary format
 		prime.txt	- a file that contains 12 unsigned numbers in ASCII format. The numbers correspond to the numbers in the file 					prime.bin
 
 Exact compilation command:
 	 For singlePrime:
-		make -f makeFile1
+		make -f Makefile1
 	 For singleSpawn:
-		make -f makeFile2
+		make -f Makefile2
 	 For multiSpawn: 
-		make -f makeFile3
+		make -f Makefile3
 
 Launching instructions:
 	1. Compile
