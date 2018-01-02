@@ -1,0 +1,7 @@
+all: isPrime singleSpawn
+
+isPrime: isPrime.c
+	gcc -o isPrime isPrime.c
+
+singleSpawn: singleSpawn.c isPrime
+	gcc -o singleSpawn singleSpawn.c 

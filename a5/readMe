@@ -1,0 +1,39 @@
+Author: Navid Askari Nasab
+Student Number: 101039154
+Date: Dec. 8th, 2017
+
+Purpose: Accepts a set of unsigned integers and determines which numbers are prime
+
+List of files: 
+	.c files:
+		isPrime.c	- base program to check if number is prime
+		createBinary.c	- a program that creates a binary file from a given set of numbers. Assuming that the executable is a.out the usage 					is: a.out filename num1 num2 etc. where filename is the binary file name, num1 is the first unsigned number num2 is 					the second unsigned number etc.
+		singlePrime.c	- Takes a binary file, checks to see if the file exists, and then morphs into isPrime for 
+				the first number in the binary file
+		singleSpawn.c	-Takes a binary file, checks to see if the file exists, and then spawns a child to morph 
+				into isPrime for the first number in the binary file
+		multiSpawn.c	-Takes a binary file, checks to see if the file exists, and then spawns multiple childs to morph 
+				into isPrime for the first 10 number in the binary file
+	Make files:
+		makeFile1	- compiles singlePrime.c as singlePrime
+		makeFile2	- compiles singleSpawn.c as singleSpawn
+		makeFile3	- compiles multiSpawn.c as multiSpawn
+	Others:
+		prime.bin	- a file that contains 12 unsigned numbers in binary format
+		prime.txt	- a file that contains 12 unsigned numbers in ASCII format. The numbers correspond to the numbers in the file 					prime.bin
+
+Exact compilation command:
+	 For singlePrime:
+		make -f makeFile1
+	 For singleSpawn:
+		make -f makeFile2
+	 For multiSpawn: 
+		make -f makeFile3
+
+Launching instructions:
+	1. Compile
+	2. enter in command line: ./taskName fileName (where taskName is either singlePrime, singleSpawn, or multiSpawn, and fileName is the binary 		file name)
+
+Issues/Limitations: 
+	-multipleSpawn does not use waitpid due to not quite understanding what needs to be done in order for it to work
+
